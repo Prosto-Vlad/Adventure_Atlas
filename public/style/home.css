@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden; /* Вимикає горизонтальну прокрутку */
+}
+
+#canvasContainer {
+    overflow: auto; /* To ensure scrolling if content exceeds size */
+}
+
+.panzoom {
+    cursor: grab; /* Add grab cursor for better interaction */
+}
+
+.panzoom:active {
+    cursor: grabbing; /* Change cursor to grabbing when active */
+}
